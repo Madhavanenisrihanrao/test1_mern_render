@@ -4,7 +4,7 @@ function App() {
   const [message, setMessage] = useState("Loading...");
 
   useEffect(() => {
-    fetch("https://mernder-backend-2.onrender.com/api/hello")
+    fetch("https://test1-mern-render.onrender.com/api/hello")
       .then((res) => {
         if (!res.ok) throw new Error("Network response was not ok");
         return res.json();
